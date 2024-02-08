@@ -536,9 +536,27 @@ img {
     color #ffffff;
 }
 
-.footer-form-submit {}
+.footer-form-submit {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
 
-.footer-form-svg {}
+.footer-form-svg {
+    margin-left: 16px;
+}
 
 .form-div {
     width: 100%;

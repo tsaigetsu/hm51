@@ -737,7 +737,7 @@ img {
     margin-right: 8px;
 }
 
-.input-place-check:checked+.form-check-label+.check-label-span {
+.input-place-check:checked+.form-check-label .check-label-span {
     background-color: var(--label-check-color);
     border: none;
     fill: var(--icon-fill-color);

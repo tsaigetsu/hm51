@@ -448,7 +448,7 @@ img {
 }
 
 .logo-footer-container {
-    margin-right: 120px;
+    margin-right: auto;
 }
 
 .footer .studio-span {
@@ -461,7 +461,7 @@ img {
 }
 
 .socials-footer-container {
-    margin-right: 80px;
+    margin-right: auto;
 }
 
 .social-footer-paragraf {
@@ -577,6 +577,7 @@ img {
 }
 
 .modal-container {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
